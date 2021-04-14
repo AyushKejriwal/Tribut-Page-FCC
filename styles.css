@@ -1,0 +1,198 @@
+body {
+  background-color: #f3f3f3;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.heading {
+  background-color: #ffffff;
+  /* margin: 20px; */
+  margin: 0 0 30px 0;
+  padding: 10px;
+}
+
+h1 {}
+
+p {}
+
+#img-div {
+  background-color: #ffffff;
+  /* margin: 20px; */
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+img {
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+}
+
+#img-caption {
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+.quote-box {
+  /* background-color: #ffffff; */
+  padding: 30px 20px;
+
+}
+
+.quote {
+  font-size: 3rem;
+}
+
+
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #ffffff; */
+  padding: 0;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #ffffff; */
+
+}
+
+.text-content {
+  padding: 50px 40px 40px 40px;
+  margin: 0px 5% 0px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  max-width: 50%;
+  background-color: #ffffff;
+}
+
+.para-heading {
+  margin: 50px 0px
+}
+
+.para-heading > h2 {
+  margin: 10px 0px;
+}
+.para-heading > p {
+  font-size: 0.75rem;
+
+  text-align: justify;
+  display:inline;
+}
+
+.para {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.1rem;
+
+}
+
+.content-box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 30px;
+  height: 50%;
+  background-color: #ffffff;
+
+}
+
+.content-box-2 > img {
+  width: 100%;
+
+}
+
+.text-content-2 {
+  text-align: left;
+  padding: 40px 0 0 0;
+
+}
+
+.info {
+  text-align: left;
+  font-size: 0.75rem;
+  padding: 0 40px 0 0 ;
+}
+
+.info > p {
+  font-size: 0.70rem;
+}
+
+
+.footer {
+  /* padding: 2% 0 4% 0; */
+  background-color: #545454;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  padding: 5%;
+  align-items: center;
+  align-self: center;
+  margin: 2% 0;
+
+}
+
+.footer-text {
+  font-size: 3rem;
+  color: White;
+  margin: 0 ;
+}
+
+.btn-div{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-decoration: none;
+}
+
+
+.btn {
+
+  background-color: white; /* Blue background */
+  border: none; /* Remove borders */
+  color: black; /* White text */
+  padding: 12px 30px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.btn > img {
+  margin: 0px 20px 0px 0px;
+}
+
+.btn > p {
+  margin: 0px 0px 0px 10px ;
+
+}
+
+.tribute-link {
+  text-decoration: none;
+}
+
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+#heart {
+  color: red;
+}
